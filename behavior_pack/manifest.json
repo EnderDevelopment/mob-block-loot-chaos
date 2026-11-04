@@ -1,0 +1,30 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Chaos Drops Behavior Pack",
+    "description": "Random XP, item drops, and mob spawns on kills and block breaks.",
+    "uuid": "5c1f1b2e-9a1e-4f6b-8c2d-3a2b7f6e9d1a",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 60]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "7d3b4c5e-6a2f-4b8d-9e1a-4c8f2d6b5a7c",
+      "version": [1, 0, 0]
+    },
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "9e5f6a7b-8c3d-4e9f-2a1b-6d7c8e9f0a2b",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
